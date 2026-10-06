@@ -40,7 +40,7 @@ The below image shows us the the GPOs created in the domain ... in my scenario a
 <h1>File sharing & Permissions </h1>
 <p>Create a folder within your drive and permit it to be a share drive via properties... set the correct sharing permissions.</p>
 <img width="994" height="584" alt="image" src="https://github.com/user-attachments/assets/7a8a3a60-5f03-45f6-b52f-55a78e67e3ab" />
-<p> You can also create a shared drive to permanently be linked with a specific group or user without constantly searching for it. </p>
+<p> You can also create a shared drive with a GPO to permanently link with a specific group or user without constantly searching for it. </p>
 <img width="994" height="571" alt="image" src="https://github.com/user-attachments/assets/6be6044d-eec7-4918-9b9b-dd09c0a1a8f4" />
 
 
