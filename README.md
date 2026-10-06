@@ -10,6 +10,7 @@ The following lab is a demo of window server and the use of active directory, se
 <h1>Server manager</h1>
 <p>
   Once we all set up navigate to the server manager, Rename your server.
+  Install active directory via tools.
   In my case ill also change my second adapters IP address, this will act as a gateway for my client devices to connect to the domain. 
   Domain ending in a <b>.local</b> is used as a Top level domain in my lab. 
 <p>
@@ -29,6 +30,24 @@ The <b>Red block</b> indicates the forest/root of the the active directory, ever
 https://github.com/user-attachments/assets/d8776b12-22c2-4e9d-af13-802d6fc3c004
 
 <h1>Group Policy Objects</h1>
+<p>
+A group policy is a rule or permission that is set either to users or to computers on the system. 
+The below image shows us the the GPOs created in the domain ... in my scenario all the GPOs created are all assigned to the domain, which means it affects all users and computers in within the domain.
+</p>
+
+<img width="1017" height="498" alt="Screenshot 2026-10-06 190205" src="https://github.com/user-attachments/assets/033ec2fe-b971-48bc-84f0-f7928c6d8798" />
+
+<h1>File sharing & Permissions </h1>
+<p>Create a folder within your drive and permit it to be a share drive via properties... set the correct sharing permissions.</p>
+<img width="994" height="584" alt="image" src="https://github.com/user-attachments/assets/7a8a3a60-5f03-45f6-b52f-55a78e67e3ab" />
+<p> You can also create a shared drive to permanently be linked with a specific group or user without constantly searching for it. </p>
+<img width="994" height="571" alt="image" src="https://github.com/user-attachments/assets/6be6044d-eec7-4918-9b9b-dd09c0a1a8f4" />
+
+
+
+
+
+
 
 
 
